@@ -1,8 +1,10 @@
 public class basic_recursion {
 
     public static void main(String[] args) {
-        int rev = reverse_num_2(123456);
-        System.out.println(rev);
+//        if(palindrome(123326)) System.out.println("palindrome");
+//        else System.out.println("not palindrome");
+        System.out.println(count_zeroes(0));
+        System.out.println(124/2);
     }
 
     public static void print1(int n){
@@ -13,7 +15,7 @@ public class basic_recursion {
     public static void print2(int n){
         if (n == 0) return;
         print2(n-1);
-        System.out.print(n + " "); //put this above print2 function and it will print 1 2 3 4 ...n
+        System.out.print(n + " "); //put this above print2 function, and it will print 1 2 3 4 ...n
     }
     public static int factorial(int n){
         if (n == 0) return 1;
@@ -49,5 +51,19 @@ public class basic_recursion {
         int remainder = n%10;
         return remainder * (int)Math.pow(10, digits -1) + helper(n/10, digits-1);
     }
+    public static boolean palindrome(int n){
+        if (n < 10) return true;
+        else if (reverse_num_2(n) == n) return true;
+        else return false;
+    }
+    public static int count_zeroes(int n){
+        return helper_2(n, 0);
+    }
+    public static int helper_2(int n, int count){
+        if (n == 0) return 1;
+        int remainder = n%10;
+        if (remainder == 0) return helper_2(n/10, count + 1);
+        return helper_2(n/10, count);
 
+    }
 }
