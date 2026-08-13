@@ -4,6 +4,7 @@ public class tina4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt(); // Number of coordinates
+        sc.close();
         if (N == 0) {
             System.out.println(4);
             return;
