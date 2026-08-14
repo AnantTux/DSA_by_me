@@ -5,8 +5,10 @@ public class prime10 {
         Scanner sc = new Scanner(System.in);
 
         // Use long to prevent integer overflow for large constraints
-        if (!sc.hasNextLong())
+        if (!sc.hasNextLong()){
+            sc.close();
             return;
+        }
         long N = sc.nextLong();
         sc.close();
 

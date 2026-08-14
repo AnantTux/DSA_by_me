@@ -4,7 +4,7 @@ public class bank9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double P = sc.nextDouble();
-        double T = sc.nextDouble();
+        // double T = sc.nextDouble(); just for the input purpose
         double N1 = sc.nextDouble();
         double A = 0;
 
