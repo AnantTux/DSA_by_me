@@ -1,0 +1,8 @@
+how to know when to use 
+1. if you are dealing with ordering 
+2. I can store the ans till here and then get the ans later 
+3. if you just want to get the ans till now or other key words you use stack and queu 
+
+
+leet code question asked in these sections 
+232, 84, 20 
