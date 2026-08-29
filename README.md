@@ -16,3 +16,4 @@ A topic-based collection of standalone Java data-structures-and-algorithms exerc
 - `java/practice/misc` and `java/practice/tcs` — general and TCS-style practice questions
 - `java/recursion` — recursion exercises and patterns
 - `java/strings` — string and palindrome exercises
+- `java/**/kunal-kushwaha` — categorized Kunal Kushwaha course assignments, retained with their original Git history
