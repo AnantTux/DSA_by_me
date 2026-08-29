@@ -1,0 +1,19 @@
+package day_2;
+ // Write a program to print whether a number is even or odd, also take input from the user.
+import java.util.Scanner;
+public class assignment_1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int a = sc.nextInt();
+        if (a == 0) {
+            System.out.println("The number is neither even nor odd");
+        }
+        else if (a%2 == 0) {
+            System.out.println(a + " is even");
+        }
+        else {
+            System.out.println(a + " is odd");
+        }
+    }
+}
