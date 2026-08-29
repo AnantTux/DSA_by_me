@@ -11,6 +11,7 @@ A topic-based collection of standalone Java data-structures-and-algorithms exerc
 - `java/arrays/problems` — other array exercises
 - `java/collections` — array lists and hash maps
 - `java/data-structures/stacks-queues` — stack, queue, deque, and question notes
+- `java/data-structures/linked-lists` - singly linked-list implementation and standalone LeetCode solutions
 - `java/fundamentals` — Java basics and introductory number exercises
 - `java/mathematics` — factorial, GCD, LCM, primes, digit problems, and Fibonacci
 - `java/practice/misc` and `java/practice/tcs` — general and TCS-style practice questions
