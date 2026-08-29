@@ -18,18 +18,3 @@ A topic-based collection of standalone Java data-structures-and-algorithms exerc
 - `java/strings` — string and palindrome exercises
 - `javascript/arrays` — JavaScript array exercises
 
-## Run Java exercises
-
-From PowerShell at the project root, compile all Java files:
-
-```powershell
-javac -d build (Get-ChildItem -Recurse -Filter *.java)
-```
-
-Then run an exercise by class name. For example:
-
-```powershell
-java -cp build merge_sort
-```
-
-The exercises intentionally remain in the default package, so their existing class names continue to work after reorganization.
